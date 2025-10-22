@@ -16,7 +16,7 @@
 static const char* TAG = "ESP_NOW_LED_RX";
 
 /* ★★ ใส่ STA MAC ของ “ฝั่ง A (รีโมต)” ★★ */
-static uint8_t partner_mac[6] = { 0x94,0xB5,0x55,0xF6,0xF6,0x40 };
+static uint8_t partner_mac[6] = { 0x94,0xB5,0x55,0xF8,0x30,0xF4 };
 
 #define CHANNEL          1      // ★★ ให้ตรงกับฝั่ง A ★★
 #define LED_PIN          2      // ★★ เปลี่ยนให้ตรงกับบอร์ดคุณ
